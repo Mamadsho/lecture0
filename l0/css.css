@@ -1,0 +1,29 @@
+div{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight:lighter;
+    text-align:center;
+
+    background-color: aqua;
+    border: 5px solid rgb(43, 110, 209);
+
+    height: 80px;
+    margin: 50px;
+    padding: 50px;
+    padding-top: 5px;
+}
+
+p{
+    font-size: large;
+}
+
+#him{
+    color: rgb(48, 141, 95);
+}
+
+#her{
+    color: rgb(156, 40, 60);
+}
+.name{
+    color: blue;
+}
