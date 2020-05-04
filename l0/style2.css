@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(58, 53, 53);
+    text-align: center;
+}
+p {
+    color: gray;
+    text-align: center;
+}
+
+div {
+    background-color: #222222;
+    width: 400px;
+}
