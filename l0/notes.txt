@@ -31,4 +31,11 @@ HTML5 tags:
             -datalist
             -option
         
-CSS:
+CSS Selectors:
+    -a, b --Multiple Selector
+    a b   --Discendants Selector
+    a>b   --Children Selector
+    a+b   --Adjacent Subling Selector
+    [a=b] --Attribute Selector
+    a:b   --Pseudoclass Selector
+    a::b  --Pseudoelement Selector
