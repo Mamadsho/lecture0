@@ -1,3 +1,6 @@
+*{
+    text-align: center;
+}
 h1,h2 {
     color: red;
     font-style: italic;
@@ -5,17 +8,15 @@ h1,h2 {
 }
 p {
     color: gray;
-    margin: 5%;
 }
 
 div {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 4%;
     position:relative;
     background-color: #222222;
-    width: 95%;
     height: auto;
     text-align: center;
+    padding:3%;
 }
 
 ul {
@@ -26,7 +27,6 @@ ul {
 }
 img {
     position: relative;
-    width: 90%;
-    margin: 5%;
+    width: 100%;
     border:solid white 2px;
 }
