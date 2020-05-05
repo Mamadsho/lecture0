@@ -9,3 +9,12 @@ Notes:
         Merge to newly downloded
     -git pull
         Simplification of 2 previous
+
+A tags:
+    -internal
+    -external
+    -samepage
+
+HTML5 organisation tags:
+    -header
+    -
