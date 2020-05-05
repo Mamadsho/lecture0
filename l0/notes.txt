@@ -10,7 +10,7 @@ Notes:
     -git pull
         Simplification of 2 previous
 
-A tags:
+HTML A tags.types:
     -internal
     -external
     -samepage
@@ -31,3 +31,4 @@ HTML5 tags:
             -datalist
             -option
         
+CSS:
