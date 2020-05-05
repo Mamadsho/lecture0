@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyWebpage</title>
+    <style>
+        @media screen and (min-width: 525px){
+            body{background-color: rgb(85, 172, 85);
+            color:white}
+            #headline::before{
+                content: "Welcome to my Webpage";
+                margin-left: 50px;
+            }
+        }
+        @media (max-width: 524px){
+            body{
+                background-color: yellow;
+                text-align: center;
+            }
+            #headline::before{
+                content: "Welcome!";
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="headline"></h1>
+</body>
+</html>
