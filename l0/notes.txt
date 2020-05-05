@@ -17,4 +17,17 @@ A tags:
 
 HTML5 organisation tags:
     -header
-    -
+    -nav
+    -section
+    -footer
+
+HTML5 tags:
+    -Form tags.input-types:
+        -radio
+        -text
+        -password
+        -color
+        -list
+            -datalist
+            -option
+        
