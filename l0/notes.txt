@@ -1,0 +1,11 @@
+Notes:
+    Git:
+    -git branch
+    -git checkout
+    -git merge
+    -git fetch
+        Download from remote
+    -git merge origin/master
+        Merge to newly downloded
+    -git pull
+        Simplification of 2 previous
