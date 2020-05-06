@@ -39,3 +39,12 @@ CSS Selectors:
     [a=b] --Attribute Selector
     a:b   --Pseudoclass Selector
     a::b  --Pseudoelement Selector
+
+CSS Responsive:
+    @media --Media quary
+    display common css property
+        -none
+        -flex
+            along with flex-warp: warp makes pin-dom
+        -block
+    
