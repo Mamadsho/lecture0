@@ -52,3 +52,7 @@ h1{
     overflow: scroll;
     height: 90vh;
 }
+a{
+    text-decoration: none !important;
+    color: rgb(123, 111, 136);
+}
