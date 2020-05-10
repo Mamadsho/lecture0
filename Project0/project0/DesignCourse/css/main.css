@@ -50,7 +50,10 @@ h1{
 }
 #main{
     overflow: scroll;
-    height: 90vh;
+    height: 83vh;
+}
+footer{
+    height: 4vh;
 }
 a{
     text-decoration: none !important;
