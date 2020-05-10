@@ -1,0 +1,54 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #272727;
+    margin: 0;
+    font-family: monospace;
+    color:#fff;
+}
+p{
+    font-size: .9em;
+    line-height: 1.6em;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    position: fixed;
+}
+nav ul a{
+    display: block;
+    height: 45px;
+}
+nav ul a:hover{
+    background-color: rgb(202, 204, 203);
+}
+.container{
+    text-align: center;
+    padding: .8em 1.2em;
+    height: 100%;
+}
+.logo{
+    width: 120px;;
+}
+.menu{
+    width: 45px;
+}
+.hide-mobile{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+h1{
+    position: relative;
+    z-index: 3;
+}
+#main{
+    overflow: scroll;
+    height: 90vh;
+}
