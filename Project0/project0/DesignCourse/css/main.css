@@ -32,7 +32,7 @@ nav ul a:hover{
     height: 100%;
 }
 .logo{
-    width: 120px;;
+    height:45px ;
 }
 .menu{
     width: 45px;
@@ -43,6 +43,7 @@ nav ul a:hover{
 header{
     display: flex;
     justify-content: flex-end;
+    height: 8vh;
 }
 h1{
     position: relative;
@@ -50,7 +51,7 @@ h1{
 }
 #main{
     overflow: scroll;
-    height: 83vh;
+    height: 80vh;
 }
 footer{
     height: 4vh;
