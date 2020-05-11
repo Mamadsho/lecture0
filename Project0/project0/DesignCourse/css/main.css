@@ -55,8 +55,34 @@ h1{
 }
 footer{
     height: 4vh;
+    padding: 1em;
 }
 a{
     text-decoration: none !important;
     color: rgb(123, 111, 136);
+}
+@media only screen and (min-width: 650px){
+    body{
+        background-color: #533f3f;
+    }
+    .container{
+        text-align: left;
+    }
+    .show-desktop{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hide-desktop{
+        display: none;
+    }
+    nav{
+        width: 250px;
+        margin-left: 180px;
+    }
+    header{
+        justify-content: left;
+    }
+    .logo{
+        margin-left: 35px;
+    }
 }

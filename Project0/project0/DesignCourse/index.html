@@ -13,7 +13,7 @@
             <img src="images/Logo.svg" alt="Logo" class="logo">
             <nav>
                 <a href="#" class="hide-desktop">
-                    <img src="images/Ham.svg" alt="Ham" class="menu">
+                    <img src="images/Ham.svg" alt="Ham" class="menu" id="menu">
                 </a>
                 <ul class="show-desktop hide-mobile" id="nav">
                     <li><a href="#"><img src="images/Home.svg"></a></li>
@@ -43,5 +43,12 @@
             <a href="#">SpaceLab Special</a>
         </footer>
     </div>
+    <script>
+        var menu=document.getElementById("menu");
+        var nav=document.getElementById("nav");
+        menu.addEventListener("click", function(e){
+            nav.classList.toggle("hide-mobile")
+        });
+    </script>
 </body>
 </html>
