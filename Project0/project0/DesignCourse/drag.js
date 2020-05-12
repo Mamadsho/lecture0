@@ -10,13 +10,14 @@ var initY;
 var xOffset=0;
 var yOffset=0;
 
-container.addEventListener("touchstart",dragStart, false);
-container.addEventListener("touchend",dragEnd, false);
-container.addEventListener("touchmove",drag,false);
+container.addEventListener("mousedown",dragStart, false);
+container.addEventListener("mouseup",dragEnd, false);
+container.addEventListener("mousemove",drag,false);
 
 function dragStart(e){
-    initX=e.touches[0].clientX-xOffset;
-    initY=e.touches[0].clientY-yOffset;
+    initX=e.clientX-xOffset;
+    initY=e.clientY-yOffset;
+
     if(e.target===item){
         active=true;
     }
@@ -25,13 +26,13 @@ function drag(e){
     if(active){
         e.preventDefault();
 
-        curX=e.touches[0].clientX-initX;
-        curY=e.touches[0].clientX-initY;
+        curX=e.clientX-initX;
+        curY=e.clientY-initY;
 
-        // xOffset=curX;
-        // yOffset=curY;
+        xOffset=curX;
+        yOffset=curY;
 
-        setTranslate(curX,CurY,item);
+        setTranslate(xOffset,yOffset,item);
     }
 }
 function dragEnd(e){

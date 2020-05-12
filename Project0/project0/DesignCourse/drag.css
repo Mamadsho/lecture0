@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
+    border-radius: 27px;
     touch-action: none;
     overflow: hidden;
 }
