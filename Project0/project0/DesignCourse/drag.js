@@ -10,28 +10,28 @@ var initY;
 var xOffset=0;
 var yOffset=0;
 
-container.addEventListener("mousedown",dragStart, false);
-container.addEventListener("mouseup",dragEnd, false);
-container.addEventListener("mousemove",drag,false);
+container.addEventListener("touchstart",dragStart, false);
+container.addEventListener("touchend",dragEnd, false);
+container.addEventListener("touchmove",drag,false);
 
 function dragStart(e){
-    initX=e.clientX-xOffset;
-    initY=e.clientY-yOffset;
+    initX=e.touches[0].clientX-xOffset;
+    initY=e.touches[0].clientY-yOffset;
 
     if(e.target===item){
         active=true;
-    }
+     }
 }
 function drag(e){
     if(active){
         e.preventDefault();
 
-        curX=e.clientX-initX;
-        curY=e.clientY-initY;
+        curX=e.touches[0].clientX-initX;
+        curY=e.touches[0].clientY-initY;
 
         xOffset=curX;
         yOffset=curY;
-
+        container.style.backgroundColor="#000000;"
         setTranslate(xOffset,yOffset,item);
     }
 }
@@ -42,7 +42,7 @@ function dragEnd(e){
     active=false;
 }
 function setTranslate(cX, cY,dragItem){
-    dragItem.style.transform="translate3d("+cX+"px, "+cY+"px, 0)";
+    if(cX<dragItem.parentElement.offsetWidth/2){dragItem.style.transform="translate3d("+cX+"px, "+cY+"px, 0)";}
 }
 }
 
